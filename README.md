@@ -101,10 +101,6 @@ The application works by:
 
 This tool is for educational purposes. Use at your own risk. Review Roblox's Terms of Service before using multi-instance tools.
 
-## Contributing
-
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
 ## License
 
 MIT License - Feel free to modify and distribute. See [LICENSE](LICENSE) for details.
