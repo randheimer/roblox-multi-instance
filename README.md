@@ -2,6 +2,16 @@
 
 A Python desktop application that allows you to run multiple Roblox instances simultaneously on Windows.
 
+[![GitHub release](https://img.shields.io/github/v/release/randheimer/roblox-multi-instance)](https://github.com/randheimer/roblox-multi-instance/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+
+## 📚 Documentation
+
+- [Quick Start Guide](https://randheimer.github.io/roblox-multi-instance/QUICKSTART.html)
+- [FAQ](https://randheimer.github.io/roblox-multi-instance/FAQ.html)
+- [Release Notes](https://randheimer.github.io/roblox-multi-instance/RELEASE.html)
+
 ## Features
 
 - Launch multiple RobloxPlayerBeta.exe instances at the same time
@@ -17,6 +27,14 @@ A Python desktop application that allows you to run multiple Roblox instances si
 - Roblox installed
 
 ## Installation
+
+### Option 1: Download Pre-built Executable (Recommended)
+
+1. Go to [Releases](https://github.com/randheimer/roblox-multi-instance/releases)
+2. Download the latest `RobloxMultiInstance.exe`
+3. Run the executable - no installation needed!
+
+### Option 2: Run from Source
 
 1. Clone or download this repository
 
@@ -83,6 +101,17 @@ The application works by:
 
 This tool is for educational purposes. Use at your own risk. Review Roblox's Terms of Service before using multi-instance tools.
 
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
 ## License
 
-MIT License - Feel free to modify and distribute
+MIT License - Feel free to modify and distribute. See [LICENSE](LICENSE) for details.
+
+## Links
+
+- [GitHub Repository](https://github.com/randheimer/roblox-multi-instance)
+- [Documentation](https://randheimer.github.io/roblox-multi-instance/)
+- [Report Issues](https://github.com/randheimer/roblox-multi-instance/issues)
+- [Latest Release](https://github.com/randheimer/roblox-multi-instance/releases)
