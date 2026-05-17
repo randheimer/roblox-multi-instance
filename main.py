@@ -62,15 +62,21 @@ class RobloxMultiInstance:
     
     def find_roblox_exe(self):
         """Locate RobloxPlayerBeta.exe"""
-        base_path = os.path.join(os.getenv('LOCALAPPDATA'), 'Roblox', 'Versions')
+        # Check multiple possible installation locations
+        possible_paths = [
+            os.path.join(os.getenv('LOCALAPPDATA'), 'Roblox', 'Versions'),
+            os.path.join(os.getenv('PROGRAMFILES(X86)'), 'Roblox', 'Versions'),
+            os.path.join(os.getenv('PROGRAMFILES'), 'Roblox', 'Versions')
+        ]
         
-        if not os.path.exists(base_path):
-            return None
-            
-        for folder in os.listdir(base_path):
-            exe_path = os.path.join(base_path, folder, 'RobloxPlayerBeta.exe')
-            if os.path.exists(exe_path):
-                return exe_path
+        for base_path in possible_paths:
+            if not os.path.exists(base_path):
+                continue
+                
+            for folder in os.listdir(base_path):
+                exe_path = os.path.join(base_path, folder, 'RobloxPlayerBeta.exe')
+                if os.path.exists(exe_path):
+                    return exe_path
         return None
     
     def get_roblox_instances(self):
